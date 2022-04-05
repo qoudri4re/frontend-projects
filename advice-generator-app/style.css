@@ -1,0 +1,62 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+}
+.content {
+    padding: 12px;
+    background-color: hsl(217, 19%, 24%);
+    width: 400px;
+    height: 250px;
+    max-width: 1440px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    position: relative;
+}
+.dice {
+    position: absolute;
+    left: 45%;
+    top: 91%;
+    background-color: hsl(150, 100%, 66%);
+    width: 50px;
+    height: 49px;
+    border-radius: 50%;
+}
+.dice:hover {
+    box-shadow: 0 3px 20px 0 hsl(150, 100%, 66%);   
+}
+.dice img {
+    margin: 12px auto;
+    
+}
+.content h5 {
+    color: hsl(150, 100%, 66%);
+    font-weight: 800px;
+}
+.content p {
+    text-align: center;
+    font-size: 20px;
+    color: hsl(193, 38%, 86%);
+}
+.divider img {
+    width: 80%;
+    position: absolute;
+    right: 9%;
+    bottom: 25%;
+}
+@media (max-width: 375px) {
+    .content {
+        margin: 100px auto;
+        width: 100vw;
+        height: 230px;
+        min-width: 365px;
+    }
+    img[src*="images/pattern-divider-desktop.svg"] {
+        content: url("images/pattern-divider-mobile.svg");
+        position: absolute;
+        width: 88%;
+        bottom: 19%;
+        right: 5%;
+      }
+}
+
