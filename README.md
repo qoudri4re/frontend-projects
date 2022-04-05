@@ -8,9 +8,8 @@ Languages used
 *     CSS
 
 
-[advice generator app](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
-[testimonials-grid](https://www.frontendmentor.io/challenges)
+
 ### [frontend mentor challenges](https://www.frontendmentor.io/challenges) 
-* [Advice generator app](https://www.frontendmentor.io/challenges) -- [my solution](https://www.frontendmentor.io/challenges)
+* [Advice generator app](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) -- [my solution](https://www.frontendmentor.io/challenges)
 * [Testimonial grid](https://www.frontendmentor.io/challenges) -- [my solution](https://www.frontendmentor.io/challenges)
   
