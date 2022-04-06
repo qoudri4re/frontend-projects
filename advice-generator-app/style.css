@@ -29,7 +29,7 @@ body {
     margin: 12px auto;
     
 }
-.content h5 {
+.content h4 {
     color: hsl(150, 100%, 66%);
     font-weight: 800px;
 }
@@ -47,7 +47,7 @@ body {
 @media (max-width: 375px) {
     .content {
         margin: 100px auto;
-        width: 100vw;
+        width: 90vw;
         height: 230px;
         min-width: 365px;
     }
