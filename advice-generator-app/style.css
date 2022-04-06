@@ -30,6 +30,7 @@ body {
     
 }
 .content h4 {
+    text-transform: uppercase;
     color: hsl(150, 100%, 66%);
     font-weight: 800px;
 }
