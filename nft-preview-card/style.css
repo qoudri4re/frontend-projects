@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+.container {
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 500px;
+    width: 280px;
+    background-color: hsl(216, 50%, 16%);
+}
+.image__nft img {
+    width: 280px;
+    height: 265px;
+    border-radius: 10px;
+}
+.image__nft {
+    width: 300px;
+    margin: 0 auto;
+}
+.price-time-details  {
+    display: flex;
+    justify-content: space-between;
+}
+.price, .time {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.creator img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+.svg {
+    height: 20px;
+}
+.text h3 {
+    color: hsl(0, 0%, 100%);
+}
+.text p {
+    color:  hsl(215, 51%, 70%);
+}
+.time p {
+    color:  hsl(215, 51%, 70%);
+}
+.price h5 {
+    color: hsl(178, 100%, 50%);
+}
+.line {
+    border: 1px solid hsl(215, 32%, 27%);;
+    
+}
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+span {
+    color: hsl(215, 51%, 70%);
+}
+.creator-name {
+    color: hsl(0, 0%, 100%);
+}
+.creator-name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+.text h3:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+.image__nft:hover {
+    
+}
