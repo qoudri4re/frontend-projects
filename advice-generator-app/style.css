@@ -45,12 +45,12 @@ body {
     right: 9%;
     bottom: 25%;
 }
-@media (max-width: 375px) {
+@media (max-width: 440px) {
     .content {
         margin: 100px auto;
         width: 70vw;
         height: 230px;
-        min-width: 365px;
+        /* min-width: 365px; */
     }
     img[src*="images/pattern-divider-desktop.svg"] {
         content: url("images/pattern-divider-mobile.svg");
@@ -58,6 +58,9 @@ body {
         width: 88%;
         bottom: 19%;
         right: 5%;
+      }
+      .dice {
+          left: 78px;
       }
 }
 
