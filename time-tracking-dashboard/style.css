@@ -170,9 +170,6 @@ body {
         display: flex;
         justify-content: space-between;
     }
-    .grid {
-        
-    }
     .flex-item-major-overlap  {
         position:relative;
     }
