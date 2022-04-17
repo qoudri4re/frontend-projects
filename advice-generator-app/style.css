@@ -7,7 +7,7 @@ body {
     width: 400px;
     height: 250px;
     max-width: 1440px;
-    margin: 20px auto;
+    margin: 100px auto;
     text-align: center;
     position: relative;
     border-radius: 10px;
@@ -45,12 +45,12 @@ body {
     right: 9%;
     bottom: 25%;
 }
-@media (max-width: 375px) {
+@media (max-width: 440px) {
     .content {
         margin: 100px auto;
         width: 90vw;
         height: 230px;
-        min-width: 365px;
+        /* min-width: 365px; */
     }
     img[src*="images/pattern-divider-desktop.svg"] {
         content: url("images/pattern-divider-mobile.svg");
@@ -59,5 +59,20 @@ body {
         bottom: 19%;
         right: 5%;
       }
+}
+@media (max-width: 410px) {
+
+    .dice {
+        left: 45%;
+    }
+}
+@media (max-width: 310px) {
+    .dice {
+        left: 43%;
+    }
+    .content {
+        min-width: 250px;
+    }
+
 }
 
