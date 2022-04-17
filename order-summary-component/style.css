@@ -5,11 +5,12 @@ body {
     background-color:   hsl(225, 100%, 94%);
 }
 .container {
-    height: 80vh;
+    height: 80%;
     width: 23%;
     background-color: hsl(225, 100%, 98%);
     margin: 50px auto;
     border-radius: 15px;
+    
 }
 img {
     width: 100%;
@@ -24,7 +25,7 @@ img {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-left: 20px;
+    margin-left: -10px;
 }
 .flex-items {
     display: flex;
@@ -70,4 +71,36 @@ button:hover {
 }
 a:hover {
     text-decoration: none;
+}
+@media (max-width: 940px) {
+    .container {
+        width: 30%;
+    }
+    .flex-items {
+        flex-direction: column;
+    }
+    .flex-items2 {
+        margin-left: -15%;
+    }
+}
+@media (max-width: 650px) {
+    .container {
+        width: 40%;
+    }
+}
+@media (max-width: 550px){
+    .container {
+        width: 50%;
+    }
+}
+@media (max-width: 450px) {
+    .container {
+        width: 60%;
+    }
+}
+@media (max-width: 360px) {
+    .container {
+        width: 70%;
+        min-width: 200px;
+    }
 }
