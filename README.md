@@ -15,4 +15,5 @@ Languages used
 * [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) -- [my solution](https://qoudri4re.github.io/frontend-projects/qr-code-component)
 * [preview nft card](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) -- [my solution](https://qoudri4re.github.io/frontend-projects/nft-preview-card/)
 * [Time tracking dashboard](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw) -- [my solution](https://qoudri4re.github.io/frontend-projects/time-tracking-dashboard/)
+* [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) -- [my solution](https://qoudri4re.github.io/frontend-projects/order-summary-component/)
   
