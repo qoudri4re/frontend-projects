@@ -139,6 +139,8 @@ body {
        grid-template-columns: 1fr;
        width: 50%;
        grid-template-rows: 80px 80px;
+       
+       min-width: 300px;
     }
     /* .grid2 {
         height: 150px;
@@ -170,7 +172,7 @@ body {
         justify-content: space-between;
     }
     .grid {
-        min-width: 300px;
+        
     }
     .flex-item-major-overlap  {
         position:relative;
