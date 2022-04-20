@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 .container {
+    font-family: 'Outfit', sans-serif;
     width: 60%;
     display: flex;
     margin: 8% auto;
@@ -10,6 +13,7 @@
     color:  hsl(0, 0%, 95%);
     position: relative;
 }
+
 p {
     color: hsla(0, 0%, 100%, 0.75);
 }
