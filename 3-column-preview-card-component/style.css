@@ -1,0 +1,115 @@
+.container {
+    width: 60%;
+    display: flex;
+    margin: 8% auto;
+}
+.column {
+    background-color: red;
+    height: 400px;
+    width: 40%;
+    color:  hsl(0, 0%, 95%);
+    position: relative;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.content {
+    padding: 35px;
+    padding-left: 50px;
+}
+.column__one {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.column__two {
+    background-color: hsl(184, 100%, 22%);
+}
+.column__three {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.column__one button {
+    color: hsl(31, 77%, 52%);
+}
+.column button:hover {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.column__one button:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+.column__two button {
+    color: hsl(184, 100%, 22%);
+}
+.column__two button:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+.column__three button {
+    color: hsl(179, 100%, 13%);
+}
+.column__three button:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+button {
+    position: absolute;
+    bottom: 10%;
+    height: 45px;
+    width: 50%;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+@media (max-width: 1040px) {
+    .container {
+        width: 70%;
+    }   
+}
+@media (max-width: 900px) {
+    .container {
+        width: 75%;
+    }   
+}
+@media (max-width: 835px) {
+    .container {
+        width: 80%;
+    }   
+}
+@media (max-width: 790px) {
+    .container {
+        width: 85%;
+    }   
+}
+@media (max-width: 750px) {
+    .container {
+        width: 90%;
+    }   
+}
+@media (max-width: 700px) {
+    .container {
+        width: 95%;
+    }   
+}
+@media (max-width: 670px) {
+    .container {
+        flex-direction: column;
+        margin: 20px auto;
+        width: 65%;
+        min-width: 300px;
+    }
+    .column {
+        width: 100%;
+    }
+    .column__one {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 5px;
+    }
+    .column__three {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+}
