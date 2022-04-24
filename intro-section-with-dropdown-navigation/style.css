@@ -69,6 +69,7 @@ ul {
 }
 .content .right {
     width: 50%;
+
 }
 
 .content .right img {
@@ -289,6 +290,8 @@ button:hover {
     }
     .content .left .flex-items {
         display: flex;
+        margin-bottom: 30px;
+        justify-content: space-evenly;
         gap: 8%;
     }
     .left-header img {
