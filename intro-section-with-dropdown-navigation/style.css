@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    
 }
+
 ul {
     list-style: none;
     display: flex;
@@ -262,13 +262,13 @@ button:hover {
         padding-top: 20px;
         height: 90%;
         top: 0%;
-        width: 50%;
+        width: 80%;
     }
     .mobile-right-header ul{
         display: flex;
         flex-direction: column;
         line-height: 35px;
-        
+        padding-top: 20px;
     }
    .features-item img{
        
