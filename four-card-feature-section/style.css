@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Outfit', sans-serif;
+}
+.content {
+    width: 70%;
+    height: 65vh;
+    margin: 0 auto;
+    display: flex;
+    margin-left: 17%;
+    gap: 20px;
+}
+
+.item {
+    width: 30%;
+    border-radius: 5px;
+    
+   
+}
+.middle, .item2__item {
+    background-color: white;
+}
+.middle {
+    align-self: center;
+    height: 50%;
+    box-shadow: -1px 4px 16px hsl(229, 6%, 66%);
+}
+
+
+.item2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.item2__item {
+    height: 48%;
+    width: 100%;
+}
+.content .text {
+    width: 80%;
+    padding: 0 0 0 15px;
+}
+img {
+    float: right;
+    margin-top: 10%;
+}
+.item1 {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    background-color: white;
+}
+.item3 {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+.item2__item {
+    border-radius: 5px;
+    box-shadow: -1px 4px 16px hsl(229, 6%, 66%);
+}
+.item2__1 {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.item2__2 {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.top-text {
+    text-align: center;
+    width: 31%;
+    margin: 0 auto;
+}
+.top-text h3 {
+    color: hsl(229, 6%, 66%);
+}
+.top-text span {
+    color: hsl(234, 12%, 34%);
+}
+.top-text p {
+    color: hsl(229, 6%, 66%); 
+}
+.text h3 {
+    color: hsl(234, 12%, 34%);
+}
+.text p {
+    color: hsl(229, 6%, 66%);
+}
+.content img {
+    margin: auto 15px;
+}
+img {
+    height: 25%;
+}
+@media (max-width: 1120px) {
+    .content {
+        height: 70vh;
+        width: 80%;
+        margin-left: 12%;
+    }
+}
+@media (max-width: 845px) {
+    .content {
+        width: 85%;
+        margin-left: 9%;
+    }
+}
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        min-width: 300px;
+    }
+    .middle {
+        align-self: flex-start;
+    }
+    .item {
+        width: 100%;
+    }
+    .content img {
+        margin: 0 10px 10px 0;
+    }
+    .top-text{
+        width: 100%;
+    }
+    .top-text p {
+        width: 75%;
+        margin: 10px auto;
+        margin-bottom: 8%;
+        min-width: 260px;
+    }
+    body {
+        min-width: 310px;
+    }
+}
