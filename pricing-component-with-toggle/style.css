@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 body {
+    font-family: 'Outfit', sans-serif;
     background-image: url('images/bg-top.svg'), url('images/bg-bottom.svg');
     background-position: 100% 0%, 0% 115%;
     background-repeat: no-repeat, no-repeat;
