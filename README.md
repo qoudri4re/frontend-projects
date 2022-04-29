@@ -18,4 +18,5 @@ Languages used
 * [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) -- [my solution](https://qoudri4re.github.io/frontend-projects/order-summary-component/)
 * [3-column preview card component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-) -- [my solution](https://qoudri4re.github.io/frontend-projects/3-column-preview-card-component/)
 * [Intro section with dropdown navigation](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-rkuHw8ZHc) -- [my solution](https://qoudri4re.github.io/frontend-projects/intro-section-with-dropdown-navigation/)
+* [Four card feature section](frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) -- [my solution](https://qoudri4re.github.io/frontend-projects/four-card-feature-section/)
   
