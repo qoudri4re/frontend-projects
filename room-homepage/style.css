@@ -154,6 +154,10 @@ li:hover {
         display: flex;
         margin: 9% 2%;
         justify-content: space-between;
+    }
+    .shop-arrow {
+        margin-top: -11px;
+        
     }   
     .header {
         display: none;
@@ -219,8 +223,6 @@ li:hover {
     .item2 {
         padding-bottom: 19px;
     }
-    .shop-arrow {
-        margin-top: -5px;
-    }
+    
     
 }
