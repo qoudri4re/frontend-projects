@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 body {
     display: grid;
     grid-template-columns: 2.5fr 2fr;
     grid-template-rows: 61vh 39vh;
     margin: 0;
+    font-family: 'Outfit', sans-serif;
 }
 ul {
     list-style: none;
@@ -125,9 +127,7 @@ li:hover {
     body {
         grid-template-rows: 58vh 42vh;
     }
-    .shop-arrow {
-        margin-top: -9px;
-    }
+    
     .item3 .left, .item3 .right {
         background-size: 100% 90%;
     }
@@ -165,7 +165,7 @@ li:hover {
         grid-column: 1 / 3;
     }
     .item3 {
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1.5fr 2fr 1.5fr;
     }
     .item3 .left {
         grid-column: 1 / 4;
@@ -210,10 +210,17 @@ li:hover {
     .item2 {
         padding-bottom: 15px;
     }
+    .item2 .content h2 {
+        font-size: 20px;
+        margin: auto 0;
+    }
 }
 @media (max-width: 350px) {
     .item2 {
         padding-bottom: 19px;
+    }
+    .shop-arrow {
+        margin-top: -5px;
     }
     
 }
