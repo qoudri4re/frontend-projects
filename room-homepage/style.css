@@ -195,11 +195,14 @@ li:hover {
         top: 0;
         height: 15%;
         display: none;
-        min-width: 265px;
+        min-width: 270px;
     }
     .mobile-nav ul {
         gap: 10px;
         margin-top: 22px;
+    }
+    .mobile-nav li {
+        margin-left: 2px;
     }
     body {
         min-width: 250px;
@@ -212,4 +215,5 @@ li:hover {
     .item2 {
         padding-bottom: 19px;
     }
+    
 }
