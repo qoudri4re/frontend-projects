@@ -288,7 +288,7 @@ body {
         width: 14%;
     }
     .header .right {
-        margin-left: -6%;
+        /* margin-left: -1%; */
         width: 80%;
     }
     .slide {
@@ -320,7 +320,7 @@ body {
         grid-template-rows: repeat(8, 20%);
     }
     .social-details {
-        height: 320vh;
+        height: 335vh;
     }
     .header .left {
         margin-left: -8%;
