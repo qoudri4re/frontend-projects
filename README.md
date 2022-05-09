@@ -22,4 +22,5 @@ Languages used
 * [Pricing component with toggle](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC) -- [my solution](https://qoudri4re.github.io/frontend-projects/pricing-component-with-toggle/)
 * [Room homepage](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq) -- [my solution](https://qoudri4re.github.io/frontend-projects/room-homepage/)
 * [Social media dashboard with theme switcher](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H) -- [my solution](https://qoudri4re.github.io/frontend-projects/social-media-dashboard-with-theme-switcher)
+* [Todo App](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW) -- [my solution](https://qoudri4re.github.io/frontend-projects/todo-app)
 
