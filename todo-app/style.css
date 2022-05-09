@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-light {
+    background: url('images/bg-desktop-light.jpg') no-repeat;
+    background-color: white;
+}
+
+.container-dark {
+    background: url('images/bg-desktop-dark.jpg') no-repeat;
+    background-color: hsl(235, 21%, 11%);
+}
+
+.container {
+    background-size: 100% 35%;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+
+.todo-list {
+    width: 30%;
+    height: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 5% 15% 10% 70%;
+    gap: 15px;
+    min-width: 400px;
+}
+
+.item {
+    height: 100%;
+}
+.heading img {
+    height: 20px;
+}
+.heading h2 {
+    color: white;
+}
+.heading {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-2 input {
+    width: 95%;
+    height: 90%;
+    border-radius: 5px;
+    border: none;
+    color: hsl(236, 9%, 61%);
+    padding-left: 20px;
+}
+.lists {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.lists .item {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 10px;
+}
+.lists .border {
+    border-bottom: 1px solid hsl(236, 33%, 92%);
+    gap: 20px;
+}
+.lists .image-bg {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+}
+.lists .completed .image-bg {
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+.lists .completed .image-bg  img {
+    margin: 0 5px;
+}
+.container .lists .completed p{
+    text-decoration: line-through;
+}
+.container-light .lists .completed p {
+    color: hsl(233, 11%, 84%);
+}
+.container-dark .lists .completed p {
+    color: hsl(234, 11%, 52%);
+}
+
+.lists .uncompleted .image-bg img {
+    display: none;
+}
+.lists .uncompleted .image-bg {
+    border:  1px solid hsl(236, 9%, 61%);
+}
+.lists .uncompleted .image-bg:hover {
+    border: 1px solid hsl(280, 87%, 65%);
+}
+.item-bottom .middle {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+.item-bottom {
+    display: flex;
+    justify-content: space-around;
+    color: hsl(236, 9%, 61%);
+}
+.container .item-bottom .middle > span:hover {
+    cursor: pointer;
+}
+.container-light .item-bottom .middle > span:hover {
+    color: hsl(235, 19%, 35%);
+}
+.container-dark .item-bottom .middle > span:hover {
+    color: hsl(236, 33%, 92%);
+}
+.container .item-bottom .clear:hover {
+    cursor: pointer;
+}
+.container-light .item-bottom .clear:hover {
+    color: hsl(235, 19%, 35%);
+}
+.container-dark .item-bottom .clear:hover {
+    color: hsl(236, 33%, 92%);
+}
+.container-light .item-3, .container-light .item-2 input {
+    background-color:hsl(0, 0%, 98%);
+}
+.container-dark .item-3, .container-dark .item-2 input {
+    background-color: hsl(237, 14%, 26%);
+}
+.item-3 {
+    border-radius: 5px;
+    padding-left: 10px;
+    height: fit-content;
+}
+.container-light .border {
+    color: hsl(235, 19%, 35%);
+}
+.container-dark .border {
+    color: hsl(234, 39%, 85%);
+}
+
+.item-2 input:focus {
+    outline: none;
+}
+.container-light .item-2 input:focus {
+    color: hsl(235, 19%, 35%);
+}
+.container-dark .item-2 input:focus {
+    color: hsl(234, 39%, 85%);
+}
+.item > img {
+    position: absolute;
+    right: 37%;
+    width: 15px;
+    height: 15px;
+}
+.border:hover{
+    cursor: pointer;
+}
+.item-bottom .middle .current-view {
+    color: hsl(220, 98%, 61%);
+}
+.item-3 .lists .hide {
+    display: none;
+}
+.item-bottom span {
+    font-size: 14px;
+}
+.msg {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.container-dark .msg {
+    color: hsl(236, 33%, 92%);
+}
+.container-light .msg {
+    color: hsl(235, 19%, 35%);
+}
+@media (max-width: 1120px) {
+    .item > img {
+        position: absolute;
+        right: 34%;
+    }
+}
+@media (max-width: 1050px) {
+    .item > img {
+        position: absolute;
+        right: 32%;
+    }
+}
+@media (max-width: 1120px) {
+    .item > img {
+        position: absolute;
+        right: 34%;
+    }
+}
+@media (max-width: 1120px) {
+    .item > img {
+        right: 34%;
+    }
+}
+@media (max-width: 950px) {
+    .item > img {
+        right: 30%;
+    }
+}
+@media (max-width: 830px) {
+    .item > img {
+        right: 28%;
+    }
+}
+@media (max-width: 750px) {
+    .item > img {
+        right: 26%;
+    }
+}
+@media (max-width: 770px) {
+    .item > img {
+        right: 25%;
+    }
+}
+@media (max-width: 690px) {
+    .item > img {
+        
+        right: 23%;
+
+    }
+
+}
+
+@media (max-width: 620px) {
+    .item > img {
+        right: 20%;
+    }
+}
+@media (max-width: 690px) {
+    .item > img {
+        right: 18%;
+    }
+}
+@media (max-width: 530px) {
+    .item > img {
+        right: 16%;
+    }
+}
+@media (max-width: 490px) {
+    .item > img {
+        right: 13%;
+    }
+}
+@media (max-width: 450px) {
+    .item > img {
+        right: 12%;
+    }
+    .todo-list {
+        min-width: 350px;
+    }
+}
+@media (max-width: 400px) {
+    .item > img {
+        right: 10%;
+    }
+}
