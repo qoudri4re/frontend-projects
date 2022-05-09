@@ -275,3 +275,11 @@ body {
         right: 10%;
     }
 }
+@media (max-width: 370px) {
+    .todo-list {
+        margin: 0 auto;
+    }
+    .container {
+        min-width: 300px;
+    }
+}
