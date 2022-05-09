@@ -21,4 +21,5 @@ Languages used
 * [Four card feature section](frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) -- [my solution](https://qoudri4re.github.io/frontend-projects/four-card-feature-section/)
 * [Pricing component with toggle](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC) -- [my solution](https://qoudri4re.github.io/frontend-projects/pricing-component-with-toggle/)
 * [Room homepage](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq) -- [my solution](https://qoudri4re.github.io/frontend-projects/room-homepage/)
-  
+* [Social media dashboard with theme switcher](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H) -- [my solution](https://qoudri4re.github.io/frontend-projects/social-media-dashboard-with-theme-switcher)
+
