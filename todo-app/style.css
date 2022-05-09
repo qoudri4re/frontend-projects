@@ -282,4 +282,7 @@ body {
     .container {
         min-width: 300px;
     }
+    .item-2 input {
+        width: 93.5%;
+    }
 }
